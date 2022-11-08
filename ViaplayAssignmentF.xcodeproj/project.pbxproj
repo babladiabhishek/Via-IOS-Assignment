@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C236979E2919A652001CE9FC /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236979D2919A652001CE9FC /* MockService.swift */; };
+		C297B0912918131000F2612B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C297B0902918131000F2612B /* DataManager.swift */; };
+		C2CE227129180A78009F1412 /* DataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CE227029180A78009F1412 /* DataResponse.swift */; };
+		C2CE227329180A9C009F1412 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CE227229180A9C009F1412 /* Webservice.swift */; };
+		C2CE227529180ABA009F1412 /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CE227429180ABA009F1412 /* DataViewModel.swift */; };
+		C2FD783F291809810083A581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD783E291809810083A581 /* AppDelegate.swift */; };
+		C2FD7841291809810083A581 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD7840291809810083A581 /* SceneDelegate.swift */; };
+		C2FD7843291809810083A581 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD7842291809810083A581 /* ViewController.swift */; };
+		C2FD7846291809810083A581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FD7844291809810083A581 /* Main.storyboard */; };
+		C2FD7849291809810083A581 /* ViaplayAssignmentF.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2FD7847291809810083A581 /* ViaplayAssignmentF.xcdatamodeld */; };
+		C2FD784B291809820083A581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FD784A291809820083A581 /* Assets.xcassets */; };
+		C2FD784E291809820083A581 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FD784C291809820083A581 /* LaunchScreen.storyboard */; };
+		C2FD7859291809820083A581 /* ViaplayAssignmentFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD7858291809820083A581 /* ViaplayAssignmentFTests.swift */; };
+		C2FD7863291809820083A581 /* ViaplayAssignmentFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD7862291809820083A581 /* ViaplayAssignmentFUITests.swift */; };
+		C2FD7865291809820083A581 /* ViaplayAssignmentFUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FD7864291809820083A581 /* ViaplayAssignmentFUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2FD7855291809820083A581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2FD7833291809810083A581 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2FD783A291809810083A581;
+			remoteInfo = ViaplayAssignmentF;
+		};
+		C2FD785F291809820083A581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2FD7833291809810083A581 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2FD783A291809810083A581;
+			remoteInfo = ViaplayAssignmentF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C236979D2919A652001CE9FC /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		C297B0902918131000F2612B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		C2CE227029180A78009F1412 /* DataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataResponse.swift; sourceTree = "<group>"; };
+		C2CE227229180A9C009F1412 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		C2CE227429180ABA009F1412 /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
+		C2FD783B291809810083A581 /* ViaplayAssignmentF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViaplayAssignmentF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FD783E291809810083A581 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2FD7840291809810083A581 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C2FD7842291809810083A581 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2FD7845291809810083A581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2FD7848291809810083A581 /* ViaplayAssignmentF.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ViaplayAssignmentF.xcdatamodel; sourceTree = "<group>"; };
+		C2FD784A291809820083A581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2FD784D291809820083A581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2FD784F291809820083A581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2FD7854291809820083A581 /* ViaplayAssignmentFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViaplayAssignmentFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FD7858291809820083A581 /* ViaplayAssignmentFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViaplayAssignmentFTests.swift; sourceTree = "<group>"; };
+		C2FD785E291809820083A581 /* ViaplayAssignmentFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViaplayAssignmentFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FD7862291809820083A581 /* ViaplayAssignmentFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViaplayAssignmentFUITests.swift; sourceTree = "<group>"; };
+		C2FD7864291809820083A581 /* ViaplayAssignmentFUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViaplayAssignmentFUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2FD7838291809810083A581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FD7851291809820083A581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FD785B291809820083A581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C236979C2919A63E001CE9FC /* MockService */ = {
+			isa = PBXGroup;
+			children = (
+				C236979D2919A652001CE9FC /* MockService.swift */,
+			);
+			path = MockService;
+			sourceTree = "<group>";
+		};
+		C297B08F291812EE00F2612B /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				C297B0902918131000F2612B /* DataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		C2CE226B29180A23009F1412 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C2FD7844291809810083A581 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C2CE226C29180A2C009F1412 /* Launchscreen */ = {
+			isa = PBXGroup;
+			children = (
+				C2FD784C291809820083A581 /* LaunchScreen.storyboard */,
+			);
+			path = Launchscreen;
+			sourceTree = "<group>";
+		};
+		C2CE226D29180A44009F1412 /* ModelData */ = {
+			isa = PBXGroup;
+			children = (
+				C2CE227029180A78009F1412 /* DataResponse.swift */,
+			);
+			path = ModelData;
+			sourceTree = "<group>";
+		};
+		C2CE226E29180A51009F1412 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C2CE227229180A9C009F1412 /* Webservice.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		C2CE226F29180A5A009F1412 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C2CE227429180ABA009F1412 /* DataViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C2FD7832291809810083A581 = {
+			isa = PBXGroup;
+			children = (
+				C2FD783D291809810083A581 /* ViaplayAssignmentF */,
+				C2FD7857291809820083A581 /* ViaplayAssignmentFTests */,
+				C2FD7861291809820083A581 /* ViaplayAssignmentFUITests */,
+				C2FD783C291809810083A581 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2FD783C291809810083A581 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2FD783B291809810083A581 /* ViaplayAssignmentF.app */,
+				C2FD7854291809820083A581 /* ViaplayAssignmentFTests.xctest */,
+				C2FD785E291809820083A581 /* ViaplayAssignmentFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2FD783D291809810083A581 /* ViaplayAssignmentF */ = {
+			isa = PBXGroup;
+			children = (
+				C236979C2919A63E001CE9FC /* MockService */,
+				C297B08F291812EE00F2612B /* DataManager */,
+				C2CE226F29180A5A009F1412 /* ViewModel */,
+				C2CE226E29180A51009F1412 /* NetworkLayer */,
+				C2CE226D29180A44009F1412 /* ModelData */,
+				C2FD7871291809BB0083A581 /* Delegates */,
+				C2FD7873291809D10083A581 /* ViewController */,
+				C2CE226B29180A23009F1412 /* Main */,
+				C2FD7872291809C70083A581 /* Assets */,
+				C2CE226C29180A2C009F1412 /* Launchscreen */,
+				C2FD784F291809820083A581 /* Info.plist */,
+				C2FD7847291809810083A581 /* ViaplayAssignmentF.xcdatamodeld */,
+			);
+			path = ViaplayAssignmentF;
+			sourceTree = "<group>";
+		};
+		C2FD7857291809820083A581 /* ViaplayAssignmentFTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2FD7858291809820083A581 /* ViaplayAssignmentFTests.swift */,
+			);
+			path = ViaplayAssignmentFTests;
+			sourceTree = "<group>";
+		};
+		C2FD7861291809820083A581 /* ViaplayAssignmentFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2FD7862291809820083A581 /* ViaplayAssignmentFUITests.swift */,
+				C2FD7864291809820083A581 /* ViaplayAssignmentFUITestsLaunchTests.swift */,
+			);
+			path = ViaplayAssignmentFUITests;
+			sourceTree = "<group>";
+		};
+		C2FD7871291809BB0083A581 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				C2FD783E291809810083A581 /* AppDelegate.swift */,
+				C2FD7840291809810083A581 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		C2FD7872291809C70083A581 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C2FD784A291809820083A581 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C2FD7873291809D10083A581 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C2FD7842291809810083A581 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2FD783A291809810083A581 /* ViaplayAssignmentF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FD7868291809820083A581 /* Build configuration list for PBXNativeTarget "ViaplayAssignmentF" */;
+			buildPhases = (
+				C2FD7837291809810083A581 /* Sources */,
+				C2FD7838291809810083A581 /* Frameworks */,
+				C2FD7839291809810083A581 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViaplayAssignmentF;
+			productName = ViaplayAssignmentF;
+			productReference = C2FD783B291809810083A581 /* ViaplayAssignmentF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2FD7853291809820083A581 /* ViaplayAssignmentFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FD786B291809820083A581 /* Build configuration list for PBXNativeTarget "ViaplayAssignmentFTests" */;
+			buildPhases = (
+				C2FD7850291809820083A581 /* Sources */,
+				C2FD7851291809820083A581 /* Frameworks */,
+				C2FD7852291809820083A581 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2FD7856291809820083A581 /* PBXTargetDependency */,
+			);
+			name = ViaplayAssignmentFTests;
+			productName = ViaplayAssignmentFTests;
+			productReference = C2FD7854291809820083A581 /* ViaplayAssignmentFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2FD785D291809820083A581 /* ViaplayAssignmentFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FD786E291809820083A581 /* Build configuration list for PBXNativeTarget "ViaplayAssignmentFUITests" */;
+			buildPhases = (
+				C2FD785A291809820083A581 /* Sources */,
+				C2FD785B291809820083A581 /* Frameworks */,
+				C2FD785C291809820083A581 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2FD7860291809820083A581 /* PBXTargetDependency */,
+			);
+			name = ViaplayAssignmentFUITests;
+			productName = ViaplayAssignmentFUITests;
+			productReference = C2FD785E291809820083A581 /* ViaplayAssignmentFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2FD7833291809810083A581 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					C2FD783A291809810083A581 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					C2FD7853291809820083A581 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = C2FD783A291809810083A581;
+					};
+					C2FD785D291809820083A581 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = C2FD783A291809810083A581;
+					};
+				};
+			};
+			buildConfigurationList = C2FD7836291809810083A581 /* Build configuration list for PBXProject "ViaplayAssignmentF" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2FD7832291809810083A581;
+			productRefGroup = C2FD783C291809810083A581 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2FD783A291809810083A581 /* ViaplayAssignmentF */,
+				C2FD7853291809820083A581 /* ViaplayAssignmentFTests */,
+				C2FD785D291809820083A581 /* ViaplayAssignmentFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2FD7839291809810083A581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FD784E291809820083A581 /* LaunchScreen.storyboard in Resources */,
+				C2FD784B291809820083A581 /* Assets.xcassets in Resources */,
+				C2FD7846291809810083A581 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FD7852291809820083A581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FD785C291809820083A581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2FD7837291809810083A581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FD7849291809810083A581 /* ViaplayAssignmentF.xcdatamodeld in Sources */,
+				C236979E2919A652001CE9FC /* MockService.swift in Sources */,
+				C297B0912918131000F2612B /* DataManager.swift in Sources */,
+				C2FD7843291809810083A581 /* ViewController.swift in Sources */,
+				C2CE227329180A9C009F1412 /* Webservice.swift in Sources */,
+				C2FD783F291809810083A581 /* AppDelegate.swift in Sources */,
+				C2CE227129180A78009F1412 /* DataResponse.swift in Sources */,
+				C2CE227529180ABA009F1412 /* DataViewModel.swift in Sources */,
+				C2FD7841291809810083A581 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FD7850291809820083A581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FD7859291809820083A581 /* ViaplayAssignmentFTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FD785A291809820083A581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FD7863291809820083A581 /* ViaplayAssignmentFUITests.swift in Sources */,
+				C2FD7865291809820083A581 /* ViaplayAssignmentFUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2FD7856291809820083A581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2FD783A291809810083A581 /* ViaplayAssignmentF */;
+			targetProxy = C2FD7855291809820083A581 /* PBXContainerItemProxy */;
+		};
+		C2FD7860291809820083A581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2FD783A291809810083A581 /* ViaplayAssignmentF */;
+			targetProxy = C2FD785F291809820083A581 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2FD7844291809810083A581 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2FD7845291809810083A581 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2FD784C291809820083A581 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2FD784D291809820083A581 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2FD7866291809820083A581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2FD7867291809820083A581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2FD7869291809820083A581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VU636YBY6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ViaplayAssignmentF/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vp.ViaplayAssignmentF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2FD786A291809820083A581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VU636YBY6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ViaplayAssignmentF/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vp.ViaplayAssignmentF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2FD786C291809820083A581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VU636YBY6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vp.ViaplayAssignmentFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViaplayAssignmentF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ViaplayAssignmentF";
+			};
+			name = Debug;
+		};
+		C2FD786D291809820083A581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VU636YBY6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vp.ViaplayAssignmentFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViaplayAssignmentF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ViaplayAssignmentF";
+			};
+			name = Release;
+		};
+		C2FD786F291809820083A581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VU636YBY6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vp.ViaplayAssignmentFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ViaplayAssignmentF;
+			};
+			name = Debug;
+		};
+		C2FD7870291809820083A581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VU636YBY6Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vp.ViaplayAssignmentFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ViaplayAssignmentF;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2FD7836291809810083A581 /* Build configuration list for PBXProject "ViaplayAssignmentF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FD7866291809820083A581 /* Debug */,
+				C2FD7867291809820083A581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FD7868291809820083A581 /* Build configuration list for PBXNativeTarget "ViaplayAssignmentF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FD7869291809820083A581 /* Debug */,
+				C2FD786A291809820083A581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FD786B291809820083A581 /* Build configuration list for PBXNativeTarget "ViaplayAssignmentFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FD786C291809820083A581 /* Debug */,
+				C2FD786D291809820083A581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FD786E291809820083A581 /* Build configuration list for PBXNativeTarget "ViaplayAssignmentFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FD786F291809820083A581 /* Debug */,
+				C2FD7870291809820083A581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C2FD7847291809810083A581 /* ViaplayAssignmentF.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C2FD7848291809810083A581 /* ViaplayAssignmentF.xcdatamodel */,
+			);
+			currentVersion = C2FD7848291809810083A581 /* ViaplayAssignmentF.xcdatamodel */;
+			path = ViaplayAssignmentF.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C2FD7833291809810083A581 /* Project object */;
+}
