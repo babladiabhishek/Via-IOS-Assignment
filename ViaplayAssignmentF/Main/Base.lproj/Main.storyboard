@@ -15,43 +15,13 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MOZ-qN-GKe">
-                                <rect key="frame" x="159" y="783" width="75" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <connections>
-                                    <segue destination="YCb-Gy-f9d" kind="show" id="bE8-EL-znz"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="MOZ-qN-GKe" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="374.5" id="RWu-2d-RlE"/>
-                            <constraint firstItem="MOZ-qN-GKe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fUF-TW-tXi"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="140" y="-2"/>
-        </scene>
-        <!--Healthkit View Controller-->
-        <scene sceneID="xer-VM-3JM">
-            <objects>
-                <viewController storyboardIdentifier="HealthkitViewController" id="YCb-Gy-f9d" customClass="HealthkitViewController" customModule="ViaplayAssignmentF" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fbS-qh-qUt">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="JA2-Kd-T8Z"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="qIh-oU-J7W"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7Y0-qc-TBj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="855" y="16"/>
         </scene>
     </scenes>
     <resources>

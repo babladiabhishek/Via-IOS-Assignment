@@ -9,7 +9,7 @@ import Foundation
 
 struct Webservice {
   func performRequest(url: URL) async throws -> DataResult? {
-    let (data,_) =  try await URLSession.shared.data(from: url)
+    let (data, _) =  try await URLSession.shared.data(from: url)
     let result = try? JSONDecoder().decode(DataResult.self, from: data)
     return result
   }

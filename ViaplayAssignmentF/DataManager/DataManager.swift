@@ -10,9 +10,9 @@ import CoreData
 
 class DataManager {
   static let shared = DataManager()
-  
+
   // MARK: - Core Data stack
-  
+
   lazy var persistentContainer: NSPersistentContainer = {
     /*
      The persistent container for the application. This implementation
@@ -21,11 +21,9 @@ class DataManager {
      error conditions that could cause the creation of the store to fail.
      */
     let container = NSPersistentContainer(name: "ViaplayAssignmentF")
-    container.loadPersistentStores(completionHandler: { (storeDescription, error) in
+    container.loadPersistentStores(completionHandler: { (_, error) in
       if let error = error as NSError? {
         // Replace this implementation with code to handle the error appropriately.
-        // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-        
         /*
          Typical reasons for an error here include:
          * The parent directory does not exist, cannot be created, or disallows writing.
@@ -39,9 +37,9 @@ class DataManager {
     })
     return container
   }()
-  
+
   // MARK: - Core Data Saving support
-  
+
   func saveContext () {
     let context = persistentContainer.viewContext
     if context.hasChanges {
@@ -49,15 +47,14 @@ class DataManager {
         try context.save()
       } catch {
         // Replace this implementation with code to handle the error appropriately.
-        // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
         let nserror = error as NSError
         fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
       }
     }
   }
-  
-  func sec(id:String, title:String, href:String, type: String,name: String, templated: Bool) -> Section {
-    let sectionContext = Section(context:persistentContainer.viewContext)
+
+  func sec(id: String, title: String, href: String, type: String, name: String, templated: Bool) -> Section {
+    let sectionContext = Section(context: persistentContainer.viewContext)
     sectionContext.name = name
     sectionContext.type = type
     sectionContext.templated = templated
@@ -66,11 +63,11 @@ class DataManager {
     sectionContext.id = id
     return sectionContext
   }
-  
+
   func sectionsCoreData() -> [Section] {
     let request: NSFetchRequest<Section> = Section.fetchRequest()
-    var fetchedSections:[Section] = []
-    do{
+    var fetchedSections: [Section] = []
+    do {
       fetchedSections = try persistentContainer.viewContext.fetch(request)
     } catch {
       print("Error fetich from core data")

@@ -9,87 +9,89 @@ import UIKit
 import CoreData
 
 class ViewController: UIViewController {
-  var coreDataSections:[NSManagedObject] = []
+  var coreDataSections: [NSManagedObject] = []
   private var dataViewModel = DataViewModel()
-  private let tableView:UITableView = {
+  private let tableView: UITableView = {
     let table = UITableView()
     table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
     return table
   }()
-  var sections:[ViaplaySection] = []
+  var sections: [ViaplaySection] = []
   let defaults = UserDefaults.standard
-  
-  
+
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
-//    initialSetup()
+    initialSetup()
   }
-  
+
   override func viewDidLayoutSubviews() {
     super.viewDidLayoutSubviews()
     tableView.frame = view.bounds
     tableView.separatorColor = UIColor.clear
   }
-  
-  func initialSetup(){
+
+  func initialSetup() {
     // Network Call is initiated and the table initial setup is carried out in this function
     dataViewModel.delegate = self
     tableView.delegate = self
     tableView.dataSource = self
     view.addSubview(tableView)
-    Task{
+    Task {
       await dataViewModel.getData()
     }
   }
 }
 
-extension ViewController:ResultManagerDelegate,UITableViewDelegate,UITableViewDataSource{
+extension ViewController: ResultManagerDelegate, UITableViewDelegate, UITableViewDataSource {
   // Sucessfully data is fetched and assigned to the local variable for further usage
   func didUpdateWithResult(_ dataManager: DataViewModel, result: DataInfoViewModel) {
-    Task{
+    Task {
       self.sections = result.dataInfo.links.viaplaySections
       if defaults.bool(forKey: "isSaved") == false {
-        //save to coredata
+        // save to coredata
         for section in result.dataInfo.links.viaplaySections {
-          let _ = DataManager.shared.sec(id: section.id, title: section.title, href: section.href, type: section.type, name: section.name, templated: section.templated)
+          _ = DataManager.shared.sec(id: section.id,
+                                     title: section.title,
+                                     href: section.href,
+                                     type: section.type,
+                                     name: section.name,
+                                     templated: section.templated)
           DataManager.shared.saveContext()
         }
         defaults.set(true, forKey: "isSaved")
       }
       self.tableView.reloadData()
     }
-    
+
   }
-  //Error handelling while getting back the result
+  // Error handelling while getting back the result
   func didFailWithError(error: Error) {
     print(error)
   }
-  
+
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return 1
   }
-  
+
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCell(withIdentifier: "cell",for: indexPath)
+    let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
     cell.textLabel?.text = self.sections[indexPath.section].name
     return cell
   }
-  
+
   func numberOfSections(in tableView: UITableView) -> Int {
     return self.sections.count
   }
-  
+
   func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
     return self.sections[section].title
   }
-  
+
   func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
     view.tintColor = .systemGray
-    let header = view as! UITableViewHeaderFooterView
-    header.textLabel?.textColor = .white
+    let header = view as? UITableViewHeaderFooterView
+      header?.textLabel?.textColor = .blue
   }
-  
+
 }
-
-

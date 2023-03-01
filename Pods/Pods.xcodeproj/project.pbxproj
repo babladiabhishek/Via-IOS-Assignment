@@ -1,0 +1,870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+			productName = SwiftLint;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		148F036333AC3904D206D6C3B6FE280F /* Pods-ViaplayAssignmentF-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C1AEEFABF1A8EF725459EEE56856A0 /* Pods-ViaplayAssignmentF-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		150227D6E5C186721E0A721E498A65F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3D5B2C5504451EBF3562FAE6823BEE63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		64FEEAA0045F2834DBD8C6269CEB90F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		66063824C2DDCE4F8E431FCCDB2BA5BE /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE82FBF016CD72830E8A910B1A9D36B /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-dummy.m */; };
+		6FB959CAA2DBBC10310D02D8E4EE2ABC /* Pods-ViaplayAssignmentF-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E8A3A303894E4A2B3FC1238019709F /* Pods-ViaplayAssignmentF-dummy.m */; };
+		9D2493A9BD8BB70C68973A238023949F /* Pods-ViaplayAssignmentFTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 917BD80A45FDEF4A90B0869FE9DFFB74 /* Pods-ViaplayAssignmentFTests-dummy.m */; };
+		B51F2D9C04BA648E6D5B5E1DBA7170AD /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3C6C605CDEDB11A2BF15D65DFE58284 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA896B312C4D7393B74206AE46C2E22A /* Pods-ViaplayAssignmentFTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D22CF5E4FBB8D6FBAD13506097859EA1 /* Pods-ViaplayAssignmentFTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09C826766EA55F4F2433F97992DE89AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D51CCD4734034D2157EA59FDA58F624B;
+			remoteInfo = "Pods-ViaplayAssignmentF";
+		};
+		7C93C5D4FC9B938868421AC16710F228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+		99C8026FF175202F76FE732B6769D581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52B60EC2A583F24ACBB69C113F5488B9;
+			remoteInfo = SwiftLint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0238AE26B22AE9DF2A955CDD798C6C9B /* Pods-ViaplayAssignmentFTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViaplayAssignmentFTests-Info.plist"; sourceTree = "<group>"; };
+		108059BB5CF232BDE7409645CA1FD744 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests.release.xcconfig"; sourceTree = "<group>"; };
+		12F71580658C0482781A35BE05AB52FB /* Pods-ViaplayAssignmentF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViaplayAssignmentF.debug.xcconfig"; sourceTree = "<group>"; };
+		152CCC4238AA11FF4E7AF005B17B8FFB /* Pods-ViaplayAssignmentFTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViaplayAssignmentFTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C4B5E4FEC1B080E82D772991D9AFBE7 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D95AC0346404AE0F694E8AD1D220B9C /* Pods-ViaplayAssignmentF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViaplayAssignmentF.release.xcconfig"; sourceTree = "<group>"; };
+		2AA21AE2BC5FD4C2F129AF90E027A0C8 /* Pods-ViaplayAssignmentF */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ViaplayAssignmentF"; path = Pods_ViaplayAssignmentF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34C1AEEFABF1A8EF725459EEE56856A0 /* Pods-ViaplayAssignmentF-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ViaplayAssignmentF-umbrella.h"; sourceTree = "<group>"; };
+		36ACA687CE682F4777590753DF35E2D4 /* Pods-ViaplayAssignmentF.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ViaplayAssignmentF.modulemap"; sourceTree = "<group>"; };
+		3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
+		47E8A3A303894E4A2B3FC1238019709F /* Pods-ViaplayAssignmentF-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ViaplayAssignmentF-dummy.m"; sourceTree = "<group>"; };
+		4E7C36081F1884DE8AF67FEB39C11C11 /* Pods-ViaplayAssignmentFTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViaplayAssignmentFTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		659D67F2E6F2536D686C9F91A7E65EA0 /* Pods-ViaplayAssignmentFTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ViaplayAssignmentFTests.modulemap"; sourceTree = "<group>"; };
+		696F2B66C38776210A08C85FF2405F16 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests"; path = Pods_ViaplayAssignmentF_ViaplayAssignmentFUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D837093F6D3D72D21491DCEC9404244 /* Pods-ViaplayAssignmentFTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViaplayAssignmentFTests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7BB67EA186326F6B242D908D0A2739C5 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests.modulemap"; sourceTree = "<group>"; };
+		7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.release.xcconfig; sourceTree = "<group>"; };
+		7ECE979062A852C1191A7937372C7669 /* Pods-ViaplayAssignmentFTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ViaplayAssignmentFTests"; path = Pods_ViaplayAssignmentFTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		917BD80A45FDEF4A90B0869FE9DFFB74 /* Pods-ViaplayAssignmentFTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ViaplayAssignmentFTests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE82FBF016CD72830E8A910B1A9D36B /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-dummy.m"; sourceTree = "<group>"; };
+		A64B75D4AE7198D6B9F2A533DC1B3D45 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-Info.plist"; sourceTree = "<group>"; };
+		A7F5D272D00258A6BDE354F115808017 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A98DFD0B3D180D6E20464AA49EF025D5 /* Pods-ViaplayAssignmentFTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ViaplayAssignmentFTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B3C6C605CDEDB11A2BF15D65DFE58284 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-umbrella.h"; sourceTree = "<group>"; };
+		D0FB326FDC5F398257B606D95D22A3B1 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D22CF5E4FBB8D6FBAD13506097859EA1 /* Pods-ViaplayAssignmentFTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ViaplayAssignmentFTests-umbrella.h"; sourceTree = "<group>"; };
+		DA356F95FDD8CAFBB0AB27282645B774 /* Pods-ViaplayAssignmentF-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ViaplayAssignmentF-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E77D28ED71872EFD5F2A9BE12E841341 /* Pods-ViaplayAssignmentF-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViaplayAssignmentF-Info.plist"; sourceTree = "<group>"; };
+		F52DF932D7E3867CE6CBF891B43EF281 /* Pods-ViaplayAssignmentF-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ViaplayAssignmentF-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4144E89ECD07765B933D10A38134D656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150227D6E5C186721E0A721E498A65F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902410D4B71F46936897195C6386694C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FEEAA0045F2834DBD8C6269CEB90F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E10CC8DE6BC056ECE583B5A3E026AC0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5B2C5504451EBF3562FAE6823BEE63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D8414578A0B88813B20ECE964FC500F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				65D8C9523CAA87CE0A090962C7653190 /* Pods-ViaplayAssignmentF */,
+				4E2B7AE949DC4D55001295E8E0CB657C /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests */,
+				445343532A87974E8D2E66E4958B741F /* Pods-ViaplayAssignmentFTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		387E87CE0626194DA672722E74FF8007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AA21AE2BC5FD4C2F129AF90E027A0C8 /* Pods-ViaplayAssignmentF */,
+				696F2B66C38776210A08C85FF2405F16 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests */,
+				7ECE979062A852C1191A7937372C7669 /* Pods-ViaplayAssignmentFTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		445343532A87974E8D2E66E4958B741F /* Pods-ViaplayAssignmentFTests */ = {
+			isa = PBXGroup;
+			children = (
+				659D67F2E6F2536D686C9F91A7E65EA0 /* Pods-ViaplayAssignmentFTests.modulemap */,
+				A98DFD0B3D180D6E20464AA49EF025D5 /* Pods-ViaplayAssignmentFTests-acknowledgements.markdown */,
+				4E7C36081F1884DE8AF67FEB39C11C11 /* Pods-ViaplayAssignmentFTests-acknowledgements.plist */,
+				917BD80A45FDEF4A90B0869FE9DFFB74 /* Pods-ViaplayAssignmentFTests-dummy.m */,
+				0238AE26B22AE9DF2A955CDD798C6C9B /* Pods-ViaplayAssignmentFTests-Info.plist */,
+				D22CF5E4FBB8D6FBAD13506097859EA1 /* Pods-ViaplayAssignmentFTests-umbrella.h */,
+				152CCC4238AA11FF4E7AF005B17B8FFB /* Pods-ViaplayAssignmentFTests.debug.xcconfig */,
+				6D837093F6D3D72D21491DCEC9404244 /* Pods-ViaplayAssignmentFTests.release.xcconfig */,
+			);
+			name = "Pods-ViaplayAssignmentFTests";
+			path = "Target Support Files/Pods-ViaplayAssignmentFTests";
+			sourceTree = "<group>";
+		};
+		4E2B7AE949DC4D55001295E8E0CB657C /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7BB67EA186326F6B242D908D0A2739C5 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests.modulemap */,
+				1C4B5E4FEC1B080E82D772991D9AFBE7 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-acknowledgements.markdown */,
+				A7F5D272D00258A6BDE354F115808017 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-acknowledgements.plist */,
+				9FE82FBF016CD72830E8A910B1A9D36B /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-dummy.m */,
+				A64B75D4AE7198D6B9F2A533DC1B3D45 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-Info.plist */,
+				B3C6C605CDEDB11A2BF15D65DFE58284 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-umbrella.h */,
+				D0FB326FDC5F398257B606D95D22A3B1 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests.debug.xcconfig */,
+				108059BB5CF232BDE7409645CA1FD744 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests.release.xcconfig */,
+			);
+			name = "Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests";
+			path = "Target Support Files/Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		65D8C9523CAA87CE0A090962C7653190 /* Pods-ViaplayAssignmentF */ = {
+			isa = PBXGroup;
+			children = (
+				36ACA687CE682F4777590753DF35E2D4 /* Pods-ViaplayAssignmentF.modulemap */,
+				DA356F95FDD8CAFBB0AB27282645B774 /* Pods-ViaplayAssignmentF-acknowledgements.markdown */,
+				F52DF932D7E3867CE6CBF891B43EF281 /* Pods-ViaplayAssignmentF-acknowledgements.plist */,
+				47E8A3A303894E4A2B3FC1238019709F /* Pods-ViaplayAssignmentF-dummy.m */,
+				E77D28ED71872EFD5F2A9BE12E841341 /* Pods-ViaplayAssignmentF-Info.plist */,
+				34C1AEEFABF1A8EF725459EEE56856A0 /* Pods-ViaplayAssignmentF-umbrella.h */,
+				12F71580658C0482781A35BE05AB52FB /* Pods-ViaplayAssignmentF.debug.xcconfig */,
+				1D95AC0346404AE0F694E8AD1D220B9C /* Pods-ViaplayAssignmentF.release.xcconfig */,
+			);
+			name = "Pods-ViaplayAssignmentF";
+			path = "Target Support Files/Pods-ViaplayAssignmentF";
+			sourceTree = "<group>";
+		};
+		7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */,
+				7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		965877409E01FB3D85D85E90E6B30185 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D96179D43A67C5D5323B0682D32C133C /* SwiftLint */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				965877409E01FB3D85D85E90E6B30185 /* Pods */,
+				387E87CE0626194DA672722E74FF8007 /* Products */,
+				2D8414578A0B88813B20ECE964FC500F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D96179D43A67C5D5323B0682D32C133C /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				7FDA596DBE0337ACDFE55A210D54EF26 /* Support Files */,
+			);
+			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20C7F91E7CD9CA24AE25064E4D026563 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA896B312C4D7393B74206AE46C2E22A /* Pods-ViaplayAssignmentFTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		313421FACD235D642D946BC8A65AE8D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51F2D9C04BA648E6D5B5E1DBA7170AD /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E67F51BD23533821781BCD1DE72E45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148F036333AC3904D206D6C3B6FE280F /* Pods-ViaplayAssignmentF-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B4D0711D9BEBDA6116517868E502186 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CE188746E8BB0D9DF3C8B95A37F6798 /* Build configuration list for PBXNativeTarget "Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests" */;
+			buildPhases = (
+				313421FACD235D642D946BC8A65AE8D2 /* Headers */,
+				7C21A95BCDB6896448B55E7584729AFE /* Sources */,
+				902410D4B71F46936897195C6386694C /* Frameworks */,
+				9D7B7B0F7170FADCFB3F1BFB0AFD5497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB0873A021238038A7C991645B5E80DB /* PBXTargetDependency */,
+			);
+			name = "Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests";
+			productName = Pods_ViaplayAssignmentF_ViaplayAssignmentFUITests;
+			productReference = 696F2B66C38776210A08C85FF2405F16 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		2019F47919DEEBEE675E0C32EC1ABF18 /* Pods-ViaplayAssignmentFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96524428A16FB0AD83B3B04BA076D47C /* Build configuration list for PBXNativeTarget "Pods-ViaplayAssignmentFTests" */;
+			buildPhases = (
+				20C7F91E7CD9CA24AE25064E4D026563 /* Headers */,
+				CA24AA5A5AC29E5FC9700F4934E59E42 /* Sources */,
+				4144E89ECD07765B933D10A38134D656 /* Frameworks */,
+				7C3003A17BFEC82A44BD5A270689E718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AEEAE86E705749C5ECCD0B3696206F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-ViaplayAssignmentFTests";
+			productName = Pods_ViaplayAssignmentFTests;
+			productReference = 7ECE979062A852C1191A7937372C7669 /* Pods-ViaplayAssignmentFTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D51CCD4734034D2157EA59FDA58F624B /* Pods-ViaplayAssignmentF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DFFD79E5B91A63167EC9EE3AC9DD1D3 /* Build configuration list for PBXNativeTarget "Pods-ViaplayAssignmentF" */;
+			buildPhases = (
+				F7E67F51BD23533821781BCD1DE72E45 /* Headers */,
+				C96A1E14CA18E1EF326D3C9C17820EF9 /* Sources */,
+				E10CC8DE6BC056ECE583B5A3E026AC0A /* Frameworks */,
+				F68AAFBAAE652CF01C458ECAB5C40E47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				388620CEF1F02B879FDFAE90909492DA /* PBXTargetDependency */,
+			);
+			name = "Pods-ViaplayAssignmentF";
+			productName = Pods_ViaplayAssignmentF;
+			productReference = 2AA21AE2BC5FD4C2F129AF90E027A0C8 /* Pods-ViaplayAssignmentF */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 387E87CE0626194DA672722E74FF8007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D51CCD4734034D2157EA59FDA58F624B /* Pods-ViaplayAssignmentF */,
+				1B4D0711D9BEBDA6116517868E502186 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests */,
+				2019F47919DEEBEE675E0C32EC1ABF18 /* Pods-ViaplayAssignmentFTests */,
+				52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C3003A17BFEC82A44BD5A270689E718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7B7B0F7170FADCFB3F1BFB0AFD5497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F68AAFBAAE652CF01C458ECAB5C40E47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C21A95BCDB6896448B55E7584729AFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66063824C2DDCE4F8E431FCCDB2BA5BE /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C96A1E14CA18E1EF326D3C9C17820EF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB959CAA2DBBC10310D02D8E4EE2ABC /* Pods-ViaplayAssignmentF-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA24AA5A5AC29E5FC9700F4934E59E42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2493A9BD8BB70C68973A238023949F /* Pods-ViaplayAssignmentFTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		388620CEF1F02B879FDFAE90909492DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 7C93C5D4FC9B938868421AC16710F228 /* PBXContainerItemProxy */;
+		};
+		4AEEAE86E705749C5ECCD0B3696206F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ViaplayAssignmentF";
+			target = D51CCD4734034D2157EA59FDA58F624B /* Pods-ViaplayAssignmentF */;
+			targetProxy = 09C826766EA55F4F2433F97992DE89AF /* PBXContainerItemProxy */;
+		};
+		BB0873A021238038A7C991645B5E80DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = 52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */;
+			targetProxy = 99C8026FF175202F76FE732B6769D581 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A529C9248062C1334FEE091FA80E5AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D837093F6D3D72D21491DCEC9404244 /* Pods-ViaplayAssignmentFTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ViaplayAssignmentFTests/Pods-ViaplayAssignmentFTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ViaplayAssignmentFTests/Pods-ViaplayAssignmentFTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		21F0203857CADCE08AE2E94683EA4E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0FB326FDC5F398257B606D95D22A3B1 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests/Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests/Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		45285987FDC204B9DB7C0228892D4B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		655696F7CA5931B3358FA438A63A3092 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12F71580658C0482781A35BE05AB52FB /* Pods-ViaplayAssignmentF.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ViaplayAssignmentF/Pods-ViaplayAssignmentF-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ViaplayAssignmentF/Pods-ViaplayAssignmentF.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8EA283400D0E4EFEC620087919C38961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 152CCC4238AA11FF4E7AF005B17B8FFB /* Pods-ViaplayAssignmentFTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ViaplayAssignmentFTests/Pods-ViaplayAssignmentFTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ViaplayAssignmentFTests/Pods-ViaplayAssignmentFTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A61055B8C475815BEBDFCF3C6B898A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D95AC0346404AE0F694E8AD1D220B9C /* Pods-ViaplayAssignmentF.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ViaplayAssignmentF/Pods-ViaplayAssignmentF-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ViaplayAssignmentF/Pods-ViaplayAssignmentF.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD81E62ACCB0B7A923FC8AA288F9921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EAB1DA481EDDC005A251D3A5E6BE4CD /* SwiftLint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E64AD5F712B8F828200B581000774579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 108059BB5CF232BDE7409645CA1FD744 /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests/Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests/Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC0124719FE8EF5FDDD72C26F8A2F57 /* SwiftLint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CE188746E8BB0D9DF3C8B95A37F6798 /* Build configuration list for PBXNativeTarget "Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F0203857CADCE08AE2E94683EA4E38 /* Debug */,
+				E64AD5F712B8F828200B581000774579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DFFD79E5B91A63167EC9EE3AC9DD1D3 /* Build configuration list for PBXNativeTarget "Pods-ViaplayAssignmentF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655696F7CA5931B3358FA438A63A3092 /* Debug */,
+				A61055B8C475815BEBDFCF3C6B898A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45285987FDC204B9DB7C0228892D4B3E /* Debug */,
+				6AF9D8D0B4F4FA4695A8EEF773CD3FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96524428A16FB0AD83B3B04BA076D47C /* Build configuration list for PBXNativeTarget "Pods-ViaplayAssignmentFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EA283400D0E4EFEC620087919C38961 /* Debug */,
+				1A529C9248062C1334FEE091FA80E5AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7B4FB01588B9E6DF09CB79FC7CE7BD /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADD1F50ABC8096A0D6CB18822BB4EE4 /* Debug */,
+				AD81E62ACCB0B7A923FC8AA288F9921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

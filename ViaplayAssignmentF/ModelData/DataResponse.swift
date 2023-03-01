@@ -26,4 +26,3 @@ struct ViaplaySection: Codable {
   let name: String
   let templated: Bool
 }
-

@@ -47,10 +47,10 @@ class MockService: DataViewModel {
     }
 }
 """
-  
+
   func performRequest(url: URL) async throws -> DataResult? {
     let jsonData = jsonString.data(using: .utf8)!
     return try JSONDecoder().decode(DataResult.self, from: jsonData)
   }
-  
+
 }
