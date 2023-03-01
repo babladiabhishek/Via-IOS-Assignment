@@ -64,14 +64,27 @@ class DataManager {
     return sectionContext
   }
 
-  func sectionsCoreData() -> [Section] {
-    let request: NSFetchRequest<Section> = Section.fetchRequest()
-    var fetchedSections: [Section] = []
-    do {
-      fetchedSections = try persistentContainer.viewContext.fetch(request)
-    } catch {
-      print("Error fetich from core data")
+    func fetchSections() throws -> [Section] {
+        let request: NSFetchRequest<Section> = Section.fetchRequest()
+        let fetchedSections = try persistentContainer.viewContext.fetch(request)
+        return fetchedSections
     }
-    return fetchedSections
-  }
+}
+
+extension Section {
+    convenience init(id: String,
+                     title: String,
+                     href: String,
+                     type: String,
+                     name: String,
+                     templated: Bool,
+                     context: NSManagedObjectContext) {
+        self.init(context: context)
+        self.id = id
+        self.title = title
+        self.href = href
+        self.type = type
+        self.name = name
+        self.templated = templated
+    }
 }

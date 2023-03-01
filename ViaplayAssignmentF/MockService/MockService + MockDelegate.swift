@@ -54,3 +54,18 @@ class MockService: DataViewModel {
   }
 
 }
+
+class MockResultManagerDelegate: ResultManagerDelegate {
+    var didUpdateWithResultCalled = false
+    var didFailWithErrorCalled = false
+    var error: Error?
+
+    func didUpdateWithResult(_ dataManager: DataViewModel, result: DataInfoViewModel) {
+        didUpdateWithResultCalled = true
+    }
+
+    func didFailWithError(error: Error) {
+        didFailWithErrorCalled = true
+        self.error = error
+    }
+}

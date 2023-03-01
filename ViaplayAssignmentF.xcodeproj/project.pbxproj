@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		29D496D12CB406F33D0A5C55 /* Pods_ViaplayAssignmentF_ViaplayAssignmentFUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA75B3B975CCC4B7BACC0B5 /* Pods_ViaplayAssignmentF_ViaplayAssignmentFUITests.framework */; };
 		31FF410CCCD6C4603EDD1A7F /* Pods_ViaplayAssignmentFTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB64B8904A815E26979EE03 /* Pods_ViaplayAssignmentFTests.framework */; };
-		C236979E2919A652001CE9FC /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236979D2919A652001CE9FC /* MockService.swift */; };
+		C236979E2919A652001CE9FC /* MockService + MockDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236979D2919A652001CE9FC /* MockService + MockDelegate.swift */; };
+		C240B8B729AF6465007406B3 /* DataViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C240B8B629AF6465007406B3 /* DataViewModelTests.swift */; };
 		C297B0912918131000F2612B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C297B0902918131000F2612B /* DataManager.swift */; };
 		C2CE227129180A78009F1412 /* DataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CE227029180A78009F1412 /* DataResponse.swift */; };
 		C2CE227329180A9C009F1412 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CE227229180A9C009F1412 /* Webservice.swift */; };
@@ -52,7 +53,8 @@
 		6FD790D3372BC9824D3B26FF /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests.debug.xcconfig"; path = "Target Support Files/Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests/Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		904D22C42F369C1BAE8E0DCC /* Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests.release.xcconfig"; path = "Target Support Files/Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests/Pods-ViaplayAssignmentF-ViaplayAssignmentFUITests.release.xcconfig"; sourceTree = "<group>"; };
 		949996730BE69B90ACDD60A8 /* Pods-ViaplayAssignmentF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViaplayAssignmentF.release.xcconfig"; path = "Target Support Files/Pods-ViaplayAssignmentF/Pods-ViaplayAssignmentF.release.xcconfig"; sourceTree = "<group>"; };
-		C236979D2919A652001CE9FC /* MockService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockService.swift; sourceTree = "<group>"; };
+		C236979D2919A652001CE9FC /* MockService + MockDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MockService + MockDelegate.swift"; sourceTree = "<group>"; };
+		C240B8B629AF6465007406B3 /* DataViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModelTests.swift; sourceTree = "<group>"; };
 		C297B0902918131000F2612B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		C2CE227029180A78009F1412 /* DataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataResponse.swift; sourceTree = "<group>"; };
 		C2CE227229180A9C009F1412 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
@@ -116,7 +118,7 @@
 		C236979C2919A63E001CE9FC /* MockService */ = {
 			isa = PBXGroup;
 			children = (
-				C236979D2919A652001CE9FC /* MockService.swift */,
+				C236979D2919A652001CE9FC /* MockService + MockDelegate.swift */,
 			);
 			path = MockService;
 			sourceTree = "<group>";
@@ -214,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				C2FD7858291809820083A581 /* ViaplayAssignmentFTests.swift */,
+				C240B8B629AF6465007406B3 /* DataViewModelTests.swift */,
 			);
 			path = ViaplayAssignmentFTests;
 			sourceTree = "<group>";
@@ -262,7 +265,6 @@
 				F299E6E4A97F110DDA3A0653 /* Pods-ViaplayAssignmentFTests.debug.xcconfig */,
 				391C9AAD78B5A4FD2966C2F7 /* Pods-ViaplayAssignmentFTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -489,7 +491,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2FD7849291809810083A581 /* ViaplayAssignmentF.xcdatamodeld in Sources */,
-				C236979E2919A652001CE9FC /* MockService.swift in Sources */,
+				C236979E2919A652001CE9FC /* MockService + MockDelegate.swift in Sources */,
 				C297B0912918131000F2612B /* DataManager.swift in Sources */,
 				C2FD7843291809810083A581 /* ViewController.swift in Sources */,
 				C2CE227329180A9C009F1412 /* Webservice.swift in Sources */,
@@ -504,6 +506,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C240B8B729AF6465007406B3 /* DataViewModelTests.swift in Sources */,
 				C2FD7859291809820083A581 /* ViaplayAssignmentFTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

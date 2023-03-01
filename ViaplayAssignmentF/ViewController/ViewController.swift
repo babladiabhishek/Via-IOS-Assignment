@@ -46,24 +46,7 @@ class ViewController: UIViewController {
 extension ViewController: ResultManagerDelegate, UITableViewDelegate, UITableViewDataSource {
   // Sucessfully data is fetched and assigned to the local variable for further usage
   func didUpdateWithResult(_ dataManager: DataViewModel, result: DataInfoViewModel) {
-    Task {
-      self.sections = result.dataInfo.links.viaplaySections
-      if defaults.bool(forKey: "isSaved") == false {
-        // save to coredata
-        for section in result.dataInfo.links.viaplaySections {
-          _ = DataManager.shared.sec(id: section.id,
-                                     title: section.title,
-                                     href: section.href,
-                                     type: section.type,
-                                     name: section.name,
-                                     templated: section.templated)
-          DataManager.shared.saveContext()
-        }
-        defaults.set(true, forKey: "isSaved")
-      }
-      self.tableView.reloadData()
-    }
-
+      fetchSectionsAndSaveIfNeeded(result: result)
   }
   // Error handelling while getting back the result
   func didFailWithError(error: Error) {
@@ -94,4 +77,34 @@ extension ViewController: ResultManagerDelegate, UITableViewDelegate, UITableVie
       header?.textLabel?.textColor = .blue
   }
 
+}
+
+extension ViewController {
+    func fetchSectionsAndSaveIfNeeded(result: DataInfoViewModel) {
+        Task {
+            self.sections = result.dataInfo.links.viaplaySections
+            if !defaults.bool(forKey: "isSaved") {
+                saveSectionsToCoreData(sections: self.sections)
+                defaults.set(true, forKey: "isSaved")
+            }
+            self.tableView.reloadData()
+        }
+    }
+
+    func saveSectionsToCoreData(sections: [ViaplaySection]) {
+        for section in sections {
+            _ = DataManager.shared.sec(id: section.id,
+                                       title: section.title,
+                                       href: section.href,
+                                       type: section.type,
+                                       name: section.name,
+                                       templated: section.templated)
+            DataManager.shared.saveContext()
+        }
+    }
+
+}
+
+struct Constants {
+    static let numberOfRows: Int = 1
 }
