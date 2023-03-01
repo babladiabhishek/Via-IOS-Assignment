@@ -9,8 +9,7 @@ import UIKit
 import CoreData
 
 class ViewController: UIViewController {
-  var dataManager = Webservice()
-  var coreDataValues:[Section] = []
+  var coreDataSections:[NSManagedObject] = []
   private var dataViewModel = DataViewModel()
   private let tableView:UITableView = {
     let table = UITableView()
@@ -24,7 +23,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view.
-    initialSetup()
+//    initialSetup()
   }
   
   override func viewDidLayoutSubviews() {

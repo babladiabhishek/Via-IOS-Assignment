@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Combine
 
 protocol ResultManagerDelegate {
   func didUpdateWithResult(_ dataManager: DataViewModel, result: DataInfoViewModel)

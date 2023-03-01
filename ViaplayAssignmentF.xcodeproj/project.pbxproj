@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C221B2AB2986E92700CDCDF2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C221B2AA2986E92700CDCDF2 /* Alamofire */; };
 		C236979E2919A652001CE9FC /* MockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236979D2919A652001CE9FC /* MockService.swift */; };
 		C297B0912918131000F2612B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C297B0902918131000F2612B /* DataManager.swift */; };
 		C2CE227129180A78009F1412 /* DataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CE227029180A78009F1412 /* DataResponse.swift */; };
@@ -68,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C221B2AB2986E92700CDCDF2 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +243,9 @@
 			dependencies = (
 			);
 			name = ViaplayAssignmentF;
+			packageProductDependencies = (
+				C221B2AA2986E92700CDCDF2 /* Alamofire */,
+			);
 			productName = ViaplayAssignmentF;
 			productReference = C2FD783B291809810083A581 /* ViaplayAssignmentF.app */;
 			productType = "com.apple.product-type.application";
@@ -313,6 +318,9 @@
 				Base,
 			);
 			mainGroup = C2FD7832291809810083A581;
+			packageReferences = (
+				C221B2A92986E92700CDCDF2 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = C2FD783C291809810083A581 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -706,6 +714,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C221B2A92986E92700CDCDF2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C221B2AA2986E92700CDCDF2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C221B2A92986E92700CDCDF2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		C2FD7847291809810083A581 /* ViaplayAssignmentF.xcdatamodeld */ = {

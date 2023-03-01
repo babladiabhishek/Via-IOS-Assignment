@@ -41,7 +41,7 @@ final class ViaplayAssignmentFTests: XCTestCase {
     let dummyUrl = URL(string: "https://content.viaplay.com/ios-se")!
     let viewModel = try await DataInfoViewModel(dataInfo: mock.performRequest(url: dummyUrl)!)
     XCTAssertEqual(viewModel.dataInfo.links.viaplaySections[0].id, "35bb8a90-d40e-11e2-8b8b-0800200c9a66")
-    XCTAssertEqual(viewModel.dataInfo.links.viaplaySections[0].title, "Serier")
+      XCTAssertEqual(viewModel.dataInfo.links.viaplaySections.first.title, "Serier")
     XCTAssertEqual(viewModel.dataInfo.links.viaplaySections[0].href, "https://content.viaplay.com/ios-se/serier{?dtg,productsPerPage}")
     XCTAssertEqual(viewModel.dataInfo.links.viaplaySections[0].type, "vod")
     XCTAssertEqual(viewModel.dataInfo.links.viaplaySections[0].name, "series")
